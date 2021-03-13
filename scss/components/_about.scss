@@ -1,0 +1,50 @@
+.about {
+    padding:vw(120) 0 vw(150) 0;
+    &__content  {
+        width: 100%;
+        height: vw(435);
+        background:#FBFBFB;
+    }
+    &__item {
+        @include flex-center;
+    }
+    &__img {
+        padding: vw(20);
+    }
+    &__title {
+        font-weight: 300;
+        font-size: vw(64);
+        line-height: vw(64);
+        color: #BDBDBD;
+        padding: vw(30) 0 vw(20) 0;
+    }
+    &__description {
+        max-width:vw(450);
+        font-weight: 300;
+        font-size: vw(16);
+        line-height: vw(25);
+        color: #000000;
+    }
+    &__button {
+        position: relative;
+        font-weight: normal;
+        font-size: vw(12);
+        line-height: vw(12);
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: #333333;
+        padding:vw(30) vw(100) vw(30) vw(65);
+        margin-top: vw(20);
+        background:#FFFFFF;
+        &::before {
+            position: absolute;
+            content: '';
+            width: vw(24);
+            height: vw(24);
+            background:url(../../assets/images/about/arrow.svg);
+            background-size: cover;
+            right: vw(64);
+            top: vw(24);
+        }
+    }
+}

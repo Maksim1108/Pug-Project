@@ -1,5 +1,19 @@
 header.header
     .container
         .header__content.flex 
+            .header__left
+                a.header__logo(href="/") #[img(src="../../assets/images/header/logo.svg")]
             .header__right
-                a.header__logo(href="/") #[img(src="../../assets/images/header/Logo.svg")]
+                nav.header__nav 
+                    ul.header__list.flex
+                        li.header__item
+                            a.header__link(href="/") Главная
+                        li.header__item
+                            a.header__link(href="/") Галерея
+                        li.header__item
+                            a.header__link(href="/") Проекты
+                        li.header__item
+                            a.header__link(href="/") Сертификаты
+                        li.header__item
+                            a.header__link(href="/") Контакты
+                

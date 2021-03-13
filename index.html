@@ -5,20 +5,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/index.css">
-    <title>Night Trips </title>
+    <title>Digital Project</title>
   </head>
   <body>
     <header class="header">
       <div class="container">
         <div class="header__content flex"> 
+          <div class="header__left"><a class="header__logo" href="/"><img src="../../assets/images/header/logo.svg"></a></div>
           <div class="header__right">
-            <a class="header__logo" href="/">
-              <img src="../../assets/images/header/Logo.svg">
-            </a>
+            <nav class="header__nav"> 
+              <ul class="header__list flex">
+                <li class="header__item"><a class="header__link" href="/">Главная</a></li>
+                <li class="header__item"><a class="header__link" href="/">Галерея</a></li>
+                <li class="header__item"><a class="header__link" href="/">Проекты</a></li>
+                <li class="header__item"><a class="header__link" href="/">Сертификаты</a></li>
+                <li class="header__item"><a class="header__link" href="/">Контакты</a></li>
+              </ul>
+            </nav>
           </div>
         </div>
       </div>
     </header>
-    <main></main>
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="hero__content flex">
+            <h1 class="hero__title">PROJECT <br/> <span>NURTOWN</span></h1><img class="hero__img" src="../../assets/images/hero/hero.png" alt="">
+          </div>
+        </div>
+      </section>
+      <section class="about"> 
+        <div class="container">
+          <div class="about__content row">
+            <div class="col-7 about__item row">
+              <div class="column"><img class="about__img" src="../../assets/images/about/1.png" alt=""><img class="about__img" src="../../assets/images/about/2.png" alt=""></div><img class="about__img" src="../../assets/images/about/3.png" alt="">
+            </div>
+            <div class="col-5">
+              <h3 class="about__title">О компании</h3>
+              <p class="about__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+              <button class="about__button">ЧИТАТЬ</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="tasks"> 
+        <div class="container">
+          <div class="tasks__content"> 
+            <h3 class="tasks__title">Основные задачи</h3>
+            <div class="tasks__row row"> 
+              <div class="tasks__block row"><span class="tasks__number">1 </span>
+                <p class="tasks__text">Создание комфортных <br/> условий и повышение <br/> качества обслуживания <br/> клиентов</p>
+              </div>
+              <div class="tasks__block flex"><span class="tasks__number">2</span>
+                <p class="tasks__text">Постоянно совершенствовать качество предоставляемых услуг путем обучения персонала, закупки нового оборудования и усиленной рекламы на рынке</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>

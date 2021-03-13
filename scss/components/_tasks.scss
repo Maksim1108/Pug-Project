@@ -1,0 +1,23 @@
+.tasks {
+    &__title {
+        font-weight: 300;
+        font-size: vw(64);
+        line-height: vw(64);
+        color: #BDBDBD;
+    }
+    &__block {
+        align-items:center;
+    }
+    &__number {
+        font-weight: 900;
+        font-size: vw(200);
+        line-height: vw(239);
+        color: #F2F2F2;
+    }
+    &__text {
+        font-weight: normal;
+        font-size: vw(22);
+        line-height: vw(36);
+        color: #333333;
+    }
+}
