@@ -1,0 +1,76 @@
+.footer {
+    background:#2C2C2C;
+    &__content {
+        padding-top: vw(58);
+    }
+    &__row {
+        justify-content: space-between;
+    }
+    &__text {
+        font-weight: bold;
+        font-size: vw(16);
+        line-height: vw(20);
+        color: #FFFFFF;
+        margin-bottom: vw(25);
+    }
+    &__item {
+        font-weight: 500;
+        font-size: vw(14);
+        line-height: vw(24);
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+        margin-bottom: vw(16);
+    }
+    &__author {
+        position: relative;
+        padding:vw(84) 0 vw(24) 0;
+        text-align: center;
+        font-weight: normal;
+        font-size: vw(12);
+        line-height: vw(22);
+        color: rgba(200, 200, 200, 0.5);
+    }
+}
+
+.contacts {
+    &__item {
+        position: relative;
+        padding-left: vw(30);
+        &::before {
+            position: absolute;
+            content: '';
+            width: vw(12);
+            height: vw(16);
+            background:url(../../assets/images/footer/Vector.svg) no-repeat;
+            background-size:cover;
+            left:vw(0);
+            top:vw(5);
+        }
+        &:nth-child(3)::before {
+            position: absolute;
+            content: '';
+            width: vw(17);
+            height: vw(16);
+            background:url(../../assets/images/footer/telephone.svg) no-repeat;
+            background-size:cover;
+            left:vw(0);
+            top:vw(5);
+        }
+        &:nth-child(4)::before {
+            position: absolute;
+            content: '';
+            width: vw(18);
+            height: vw(12);
+            background:url(../../assets/images/footer/mail.svg) no-repeat;
+            background-size:cover;
+            left:vw(0);
+            top:vw(5);
+        }
+    }
+}
+
+.social {
+    &__row {
+        justify-content: space-between;
+    }
+}

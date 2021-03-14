@@ -5,6 +5,9 @@
         line-height: vw(64);
         color: #BDBDBD;
     }
+    &__row {
+        justify-content:space-between;
+    }
     &__block {
         align-items:center;
     }
@@ -19,5 +22,6 @@
         font-size: vw(22);
         line-height: vw(36);
         color: #333333;
+        padding-left: vw(30);
     }
 }
