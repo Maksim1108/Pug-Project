@@ -1,3 +1,5 @@
+- const items = [{link:'#', text: 'Главная'},{link:'#', text: 'Галерея'},{link:'#', text: 'Проекты'},{link:'#', text: 'Сертификаты'},{link:'#', text: 'Контакты'},]
+
 header.header
     .container
         .header__content.flex 
@@ -6,14 +8,8 @@ header.header
             .header__right
                 nav.header__nav 
                     ul.header__list.flex
-                        li.header__item
-                            a.header__link(href="/") Главная
-                        li.header__item
-                            a.header__link(href="/") Галерея
-                        li.header__item
-                            a.header__link(href="/") Проекты
-                        li.header__item
-                            a.header__link(href="/") Сертификаты
-                        li.header__item
-                            a.header__link(href="/") Контакты
+                        each i in items
+                            li.header__item
+                                a.header__link(href=i.link) #{i.text}
+                        
                 
